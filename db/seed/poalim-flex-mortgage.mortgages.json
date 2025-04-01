@@ -1,0 +1,216 @@
+[{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d1"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "type": "משכנתא",
+  "principal": 1500000,
+  "interestRate": 3.5,
+  "startDate": {
+    "$date": "2020-01-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2050-01-01T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2020-01-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2020-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d2"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "type": "הלוואה אישית",
+  "principal": 150000,
+  "interestRate": 5,
+  "startDate": {
+    "$date": "2018-06-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2023-06-01T00:00:00.000Z"
+  },
+  "status": "inactive",
+  "createdAt": {
+    "$date": "2018-06-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2018-06-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d3"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "type": "משכנתא",
+  "principal": 1200000,
+  "interestRate": 3.8,
+  "startDate": {
+    "$date": "2019-03-15T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2049-03-15T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2019-03-15T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2019-03-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d4"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c4"
+  },
+  "type": "משכנתא",
+  "principal": 800000,
+  "interestRate": 4.1,
+  "startDate": {
+    "$date": "2017-09-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2042-09-01T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2017-09-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2017-09-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d5"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c5"
+  },
+  "type": "הלוואה אישית",
+  "principal": 50000,
+  "interestRate": 6.5,
+  "startDate": {
+    "$date": "2020-11-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2020-11-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d6"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c6"
+  },
+  "type": "משכנתא",
+  "principal": 1800000,
+  "interestRate": 3.2,
+  "startDate": {
+    "$date": "2022-02-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2052-02-01T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2022-02-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d7"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "type": "הלוואה אישית",
+  "principal": 80000,
+  "interestRate": 7,
+  "startDate": {
+    "$date": "2019-07-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2019-07-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2019-07-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d8"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "type": "משכנתא",
+  "principal": 900000,
+  "interestRate": 3.6,
+  "startDate": {
+    "$date": "2021-05-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2046-05-01T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2021-05-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1d9"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "type": "הלוואה אישית",
+  "principal": 120000,
+  "interestRate": 5.5,
+  "startDate": {
+    "$date": "2020-03-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2030-03-01T00:00:00.000Z"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2020-03-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2020-03-01T00:00:00.000Z"
+  }
+}]

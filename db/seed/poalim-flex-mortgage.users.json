@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "firstName": "יוסף",
+  "lastName": "כהן",
+  "email": "yosefcohen@example.com",
+  "phoneNumber": "+972501234567",
+  "address": {
+    "street": "רחוב הרצל 123",
+    "city": "תל אביב",
+    "zipCode": "6701234",
+    "country": "ישראל"
+  },
+  "financialStatus": "A",
+  "createdAt": {
+    "$date": "2021-01-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "firstName": "רחל",
+  "lastName": "לוי",
+  "email": "rachellevi@example.com",
+  "phoneNumber": "+972509876543",
+  "address": {
+    "street": "רחוב דיזנגוף 456",
+    "city": "תל אביב",
+    "zipCode": "6401234",
+    "country": "ישראל"
+  },
+  "financialStatus": "B",
+  "createdAt": {
+    "$date": "2021-02-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "firstName": "דוד",
+  "lastName": "פרץ",
+  "email": "davidperetz@example.com",
+  "phoneNumber": "+972523456789",
+  "address": {
+    "street": "רחוב בן יהודה 789",
+    "city": "ירושלים",
+    "zipCode": "9401234",
+    "country": "ישראל"
+  },
+  "financialStatus": "C",
+  "createdAt": {
+    "$date": "2021-03-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c4"
+  },
+  "firstName": "שרה",
+  "lastName": "אברהם",
+  "email": "saraavraham@example.com",
+  "phoneNumber": "+972541112222",
+  "address": {
+    "street": "רחוב אלנבי 111",
+    "city": "חיפה",
+    "zipCode": "3301234",
+    "country": "ישראל"
+  },
+  "financialStatus": "A",
+  "createdAt": {
+    "$date": "2021-04-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c5"
+  },
+  "firstName": "אריאל",
+  "lastName": "שפירא",
+  "email": "arielshapira@example.com",
+  "phoneNumber": "+972587778888",
+  "address": {
+    "street": "רחוב הרצל 222",
+    "city": "רחובות",
+    "zipCode": "7601234",
+    "country": "ישראל"
+  },
+  "financialStatus": "B",
+  "createdAt": {
+    "$date": "2021-05-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c6"
+  },
+  "firstName": "מיכאל",
+  "lastName": "ביטון",
+  "email": "michaelbiton@example.com",
+  "phoneNumber": "+972549990000",
+  "address": {
+    "street": "רחוב ויצמן 333",
+    "city": "נתניה",
+    "zipCode": "4201234",
+    "country": "ישראל"
+  },
+  "financialStatus": "A",
+  "createdAt": {
+    "$date": "2021-06-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "firstName": "תמר",
+  "lastName": "אלון",
+  "email": "tamaralon@example.com",
+  "phoneNumber": "+972543332222",
+  "address": {
+    "street": "רחוב יפו 444",
+    "city": "תל אביב",
+    "zipCode": "6801234",
+    "country": "ישראל"
+  },
+  "financialStatus": "C",
+  "createdAt": {
+    "$date": "2021-07-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-07-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "firstName": "יונתן",
+  "lastName": "זיו",
+  "email": "yonatanziv@example.com",
+  "phoneNumber": "+972551112345",
+  "address": {
+    "street": "רחוב הנביאים 555",
+    "city": "ירושלים",
+    "zipCode": "9411234",
+    "country": "ישראל"
+  },
+  "financialStatus": "B",
+  "createdAt": {
+    "$date": "2021-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-08-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "firstName": "נעמה",
+  "lastName": "שטרן",
+  "email": "noamstern@example.com",
+  "phoneNumber": "+972559990011",
+  "address": {
+    "street": "רחוב בן גוריון 666",
+    "city": "באר שבע",
+    "zipCode": "8401234",
+    "country": "ישראל"
+  },
+  "financialStatus": "A",
+  "createdAt": {
+    "$date": "2021-09-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-09-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "firstName": "אבי",
+  "lastName": "מזרחי",
+  "email": "avimizrahi@example.com",
+  "phoneNumber": "+972527774444",
+  "address": {
+    "street": "רחוב העצמאות 777",
+    "city": "אשדוד",
+    "zipCode": "7701234",
+    "country": "ישראל"
+  },
+  "financialStatus": "C",
+  "createdAt": {
+    "$date": "2021-10-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-01T00:00:00.000Z"
+  }
+}]

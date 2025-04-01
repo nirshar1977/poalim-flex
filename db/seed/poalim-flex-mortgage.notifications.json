@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e101"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "type": "flex_offer",
+  "title": "אפשרות להפחתת תשלום המשכנתא",
+  "message": "זיהינו כי ייתכן שאתה עשוי להרוויח מהפחתת תשלום המשכנתא החודשי שלך. באפשרותך להפחית את התשלום החודשי ב-₪1,000 החודש.",
+  "actionUrl": "/mortgage/flex/reduce",
+  "isRead": false,
+  "priority": "high",
+  "createdAt": {
+    "$date": "2023-03-10T08:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-10T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e102"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "type": "flex_offer",
+  "title": "הקלה בתשלומי המשכנתא",
+  "message": "בהתבסס על ניתוח הוצאותיך, אנו ממליצים לשקול שימוש באפשרות הפחתת התשלום החודשי. אתה יכול להפחית עד ₪1,200 מהתשלום הקרוב.",
+  "actionUrl": "/mortgage/flex/reduce",
+  "isRead": false,
+  "priority": "high",
+  "createdAt": {
+    "$date": "2023-03-12T09:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-12T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e103"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "type": "flex_offer",
+  "title": "הצעה אישית להגמשת תשלומים",
+  "message": "שלום אבי, הוצאות הדיור והמזון שלך עלו בחודש האחרון. באפשרותך להקל על התזרים באמצעות הפחתת תשלום המשכנתא בחודש הקרוב.",
+  "actionUrl": "/mortgage/flex/reduce",
+  "isRead": false,
+  "priority": "high",
+  "createdAt": {
+    "$date": "2023-03-15T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-15T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e104"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "type": "payment_reminder",
+  "title": "תזכורת תשלום משכנתא",
+  "message": "יוסף, ברצוננו להזכיר לך כי תשלום המשכנתא הבא שלך מתוכנן ל-5 באפריל.",
+  "isRead": true,
+  "priority": "medium",
+  "createdAt": {
+    "$date": "2023-03-25T08:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-25T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e105"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "type": "payment_reminder",
+  "title": "תזכורת תשלום משכנתא",
+  "message": "רחל, ברצוננו להזכיר לך כי תשלום המשכנתא הבא שלך מתוכנן ל-5 באפריל.",
+  "isRead": false,
+  "priority": "medium",
+  "createdAt": {
+    "$date": "2023-03-25T08:15:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-25T08:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e106"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c4"
+  },
+  "type": "system",
+  "title": "הפעלת שירות Flex",
+  "message": "שרה, שירות Flex לגמישות בתשלומי המשכנתא הופעל בחשבונך. כעת באפשרותך להפחית תשלומים בתקופות קשות.",
+  "isRead": true,
+  "priority": "low",
+  "createdAt": {
+    "$date": "2023-02-15T14:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-15T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e107"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c5"
+  },
+  "type": "system",
+  "title": "הפעלת שירות Flex",
+  "message": "אריאל, שירות Flex לגמישות בתשלומי המשכנתא הופעל בחשבונך. כעת באפשרותך להפחית תשלומים בתקופות קשות.",
+  "isRead": false,
+  "priority": "low",
+  "createdAt": {
+    "$date": "2023-02-18T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-18T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e108"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "type": "custom",
+  "title": "אישור הפחתת תשלום",
+  "message": "בקשתך להפחתת תשלום המשכנתא אושרה. תשלום אפריל יהיה מופחת ב-₪800.",
+  "actionUrl": "/mortgage/flex/history",
+  "isRead": false,
+  "priority": "medium",
+  "createdAt": {
+    "$date": "2023-03-28T09:45:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-28T09:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e109"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c6"
+  },
+  "type": "custom",
+  "title": "עדכון תנאי שירות",
+  "message": "שירות Flex מציע כעת עד 6 הפחתות תשלום בשנה, לעומת 4 בעבר. לפרטים נוספים בקר באתר.",
+  "actionUrl": "/flex/terms",
+  "isRead": false,
+  "priority": "low",
+  "createdAt": {
+    "$date": "2023-03-01T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-01T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64b1a3c1c2d0a8a2b0f2e110"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "type": "payment_reminder",
+  "title": "תזכורת תשלום משכנתא",
+  "message": "יונתן, ברצוננו להזכיר לך כי תשלום המשכנתא הבא שלך מתוכנן ל-5 באפריל.",
+  "isRead": false,
+  "priority": "medium",
+  "createdAt": {
+    "$date": "2023-03-25T08:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-25T08:30:00.000Z"
+  }
+}]

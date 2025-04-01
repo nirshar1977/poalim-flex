@@ -1,0 +1,35 @@
+[{
+  "_id": "scores",
+  "classifications": [
+    {
+      "status": "A",
+      "minScore": 800,
+      "maxScore": 1000,
+      "description": "Excellent credit score"
+    },
+    {
+      "status": "B",
+      "minScore": 650,
+      "maxScore": 799,
+      "description": "Good credit score"
+    },
+    {
+      "status": "C",
+      "minScore": 500,
+      "maxScore": 649,
+      "description": "Fair credit score"
+    },
+    {
+      "status": "D",
+      "minScore": 300,
+      "maxScore": 499,
+      "description": "Poor credit score"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  }
+}]

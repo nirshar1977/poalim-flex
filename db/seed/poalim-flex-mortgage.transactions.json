@@ -1,0 +1,1496 @@
+[{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d101"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 15000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d102"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 3500,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d103"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 800,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d104"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 1200,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-01-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d105"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 15000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש פברואר",
+  "date": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d106"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 3500,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-02-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d107"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 750,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-02-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-02-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d108"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 1500,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-02-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-02-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d109"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 15000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש מרץ",
+  "date": {
+    "$date": "2023-03-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d110"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c1"
+  },
+  "amount": 3500,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-03-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d201"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "amount": 12000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d202"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "amount": 4000,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d203"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "amount": 920,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d204"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "amount": 2200,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-01-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d205"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "amount": 12000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש פברואר",
+  "date": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d206"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c2"
+  },
+  "amount": 4000,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-02-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d301"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "amount": 8000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d302"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "amount": 3200,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d303"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "amount": 700,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d304"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "amount": 1800,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-01-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d305"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "amount": 1200,
+  "type": "expense",
+  "category": "entertainment",
+  "description": "בילויים ומסעדות",
+  "date": {
+    "$date": "2023-01-20T19:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-20T19:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-20T19:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d306"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "amount": 8000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש פברואר",
+  "date": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d307"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c3"
+  },
+  "amount": 3200,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-02-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d401"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c4"
+  },
+  "amount": 20000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d402"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c4"
+  },
+  "amount": 5000,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d403"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c4"
+  },
+  "amount": 950,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d501"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c5"
+  },
+  "amount": 13000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d502"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c5"
+  },
+  "amount": 4200,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d601"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c6"
+  },
+  "amount": 18000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d602"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c6"
+  },
+  "amount": 4800,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d701"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 9500,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d702"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 3800,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d703"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 750,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d704"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 2100,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-01-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d705"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 1500,
+  "type": "expense",
+  "category": "entertainment",
+  "description": "בילויים ומסעדות",
+  "date": {
+    "$date": "2023-01-20T19:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-20T19:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-20T19:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d706"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 9500,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש פברואר",
+  "date": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d707"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 3800,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-02-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d708"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 2200,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-02-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-02-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d709"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 9500,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש מרץ",
+  "date": {
+    "$date": "2023-03-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d710"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 3800,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-03-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d711"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 820,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-03-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-03-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d712"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c7"
+  },
+  "amount": 2400,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-03-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-03-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d801"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "amount": 14000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d802"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "amount": 4500,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d803"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "amount": 850,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d804"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "amount": 14000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש פברואר",
+  "date": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d805"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "amount": 4500,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-02-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d806"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "amount": 14000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש מרץ",
+  "date": {
+    "$date": "2023-03-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d807"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c8"
+  },
+  "amount": 4500,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-03-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d901"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "amount": 22000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d902"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "amount": 5500,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d903"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "amount": 920,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d904"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "amount": 22000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש פברואר",
+  "date": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d905"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "amount": 5500,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-02-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d906"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "amount": 22000,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש מרץ",
+  "date": {
+    "$date": "2023-03-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1d907"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1c9"
+  },
+  "amount": 5500,
+  "type": "expense",
+  "category": "housing",
+  "description": "משכנתא",
+  "date": {
+    "$date": "2023-03-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da01"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 8500,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש ינואר",
+  "date": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da02"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 3600,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-01-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da03"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 780,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-01-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da04"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 1900,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-01-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da05"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 1300,
+  "type": "expense",
+  "category": "entertainment",
+  "description": "בילויים ומסעדות",
+  "date": {
+    "$date": "2023-01-20T19:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-01-20T19:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-20T19:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da06"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 8500,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש פברואר",
+  "date": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da07"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 3600,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-02-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da08"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 8500,
+  "type": "income",
+  "category": "salary",
+  "description": "משכורת חודש מרץ",
+  "date": {
+    "$date": "2023-03-01T10:00:00.000Z"
+  },
+  "source": "העברה בנקאית",
+  "createdAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da09"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 3600,
+  "type": "expense",
+  "category": "housing",
+  "description": "שכר דירה",
+  "date": {
+    "$date": "2023-03-05T14:00:00.000Z"
+  },
+  "source": "הוראת קבע",
+  "createdAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-05T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da10"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 810,
+  "type": "expense",
+  "category": "utilities",
+  "description": "חשבון חשמל",
+  "date": {
+    "$date": "2023-03-10T11:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-03-10T11:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-10T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da11"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 2100,
+  "type": "expense",
+  "category": "groceries",
+  "description": "קניות סופר חודשיות",
+  "date": {
+    "$date": "2023-03-15T16:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-03-15T16:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-15T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64a1b2c1c2d0a8a2b0f1da12"
+  },
+  "userId": {
+    "$oid": "60f1b2c1c2d0a8a2b0f1c1ca"
+  },
+  "amount": 1500,
+  "type": "expense",
+  "category": "entertainment",
+  "description": "בילויים ומסעדות",
+  "date": {
+    "$date": "2023-03-20T19:00:00.000Z"
+  },
+  "source": "כרטיס אשראי",
+  "createdAt": {
+    "$date": "2023-03-20T19:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-20T19:30:00.000Z"
+  }
+}]
