@@ -1,0 +1,751 @@
+{
+	"info": {
+		"_postman_id": "69a1a139-1ee3-4475-8339-9a8a176bafd4",
+		"name": "Poalim Flex API",
+		"description": "A collection for testing the Poalim Flex backend API, including authentication, mortgages, flex features, notifications, and analytics.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6578795"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Register User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();",
+									"pm.globals.set(\"token\", jsonData.token);",
+									"pm.globals.set(\"userId\", jsonData.user.id);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customerId\": \"123456789\",\n    \"email\": \"test@example.com\",\n    \"password\": \"password123\",\n    \"name\": \"Test User\",\n    \"phone\": \"0501234567\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						},
+						"description": "Register a new user in the system"
+					},
+					"response": []
+				},
+				{
+					"name": "Login User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();",
+									"pm.globals.set(\"token\", jsonData.token);",
+									"pm.globals.set(\"userId\", jsonData.user.id);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"nirby7@gmail.com\",\n    \"password\": \"E39U#F5tNs5AcbC\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						},
+						"description": "Login a user and get an authentication token"
+					},
+					"response": []
+				},
+				{
+					"name": "Get User Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/auth/profile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"profile"
+							]
+						},
+						"description": "Get the current user's profile information"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Notification Preferences",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": true,\n    \"push\": true,\n    \"sms\": false\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/auth/notifications",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"notifications"
+							]
+						},
+						"description": "Update user notification preferences"
+					},
+					"response": []
+				}
+			],
+			"description": "Authentication endpoints for registering, logging in, and managing user profiles"
+		},
+		{
+			"name": "Mortgages",
+			"item": [
+				{
+					"name": "Create Test Mortgage",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();",
+									"pm.globals.set(\"mortgageId\", jsonData._id);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": \"{{userId}}\",\n    \"mortgageId\": \"MG12345\",\n    \"originalAmount\": 1200000,\n    \"currentBalance\": 980000,\n    \"interestRate\": 0.03,\n    \"startDate\": \"2020-01-01T00:00:00.000Z\",\n    \"endDate\": \"2045-01-01T00:00:00.000Z\",\n    \"monthlyPayment\": 5200,\n    \"remainingMonths\": 300,\n    \"flexEnabled\": false\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/mortgage",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"mortgage"
+							]
+						},
+						"description": "This is a special endpoint to create a test mortgage for development purposes. In a real app, this would be handled by an admin interface or database seed."
+					},
+					"response": []
+				},
+				{
+					"name": "Create Test Mortgage Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();",
+									"pm.globals.set(\"mortgageId\", jsonData._id);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": \"{{userId}}\",\n    \"mortgageId\": \"MG12345\",\n    \"originalAmount\": 1200000,\n    \"currentBalance\": 980000,\n    \"interestRate\": 0.03,\n    \"startDate\": \"2020-01-01T00:00:00.000Z\",\n    \"endDate\": \"2045-01-01T00:00:00.000Z\",\n    \"monthlyPayment\": 5200,\n    \"remainingMonths\": 300,\n    \"flexEnabled\": false\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/mortgage",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"mortgage"
+							]
+						},
+						"description": "This is a special endpoint to create a test mortgage for development purposes. In a real app, this would be handled by an admin interface or database seed."
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Mortgages",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/mortgage",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"mortgage"
+							]
+						},
+						"description": "Get all mortgages for the current user"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Mortgage Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/mortgage/{{mortgageId}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"mortgage",
+								"{{mortgageId}}"
+							]
+						},
+						"description": "Get details for a specific mortgage"
+					},
+					"response": []
+				},
+				{
+					"name": "Toggle Flex Feature",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/mortgage/{{mortgageId}}/toggle-flex",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"mortgage",
+								"{{mortgageId}}",
+								"toggle-flex"
+							]
+						},
+						"description": "Enable or disable the Flex feature for a mortgage"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Max Flex Usage",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"maxUsage\": 4\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/mortgage/{{mortgageId}}/max-flex-usage",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"mortgage",
+								"{{mortgageId}}",
+								"max-flex-usage"
+							]
+						},
+						"description": "Update the maximum number of Flex usages per year"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints for managing mortgages"
+		},
+		{
+			"name": "Flex Features",
+			"item": [
+				{
+					"name": "Get Flex History",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/flex/{{mortgageId}}/history",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"flex",
+								"{{mortgageId}}",
+								"history"
+							]
+						},
+						"description": "Get the history of Flex usage for a mortgage"
+					},
+					"response": []
+				},
+				{
+					"name": "Calculate Flex Distribution",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"reductionAmount\": 1000\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/flex/{{mortgageId}}/calculate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"flex",
+								"{{mortgageId}}",
+								"calculate"
+							]
+						},
+						"description": "Calculate a distribution plan for a potential Flex reduction"
+					},
+					"response": []
+				},
+				{
+					"name": "Apply Flex Reduction",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"reductionAmount\": 1000\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/flex/{{mortgageId}}/reduce",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"flex",
+								"{{mortgageId}}",
+								"reduce"
+							]
+						},
+						"description": "Apply a Flex payment reduction for the current month"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints for managing Flex payment reductions"
+		},
+		{
+			"name": "Notifications",
+			"item": [
+				{
+					"name": "Get All Notifications",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/notifications",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"notifications"
+							]
+						},
+						"description": "Get all notifications for the current user"
+					},
+					"response": []
+				},
+				{
+					"name": "Mark Notification as Read",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/notifications/:notificationId/read",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"notifications",
+								":notificationId",
+								"read"
+							],
+							"variable": [
+								{
+									"key": "notificationId",
+									"value": "60f1a2b3c4d5e6f7g8h9i0j1",
+									"description": "ID of the notification to mark as read"
+								}
+							]
+						},
+						"description": "Mark a specific notification as read"
+					},
+					"response": []
+				},
+				{
+					"name": "Mark All Notifications as Read",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/notifications/read-all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"notifications",
+								"read-all"
+							]
+						},
+						"description": "Mark all notifications as read"
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Flex Offers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/notifications/generate-flex-offers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"notifications",
+								"generate-flex-offers"
+							]
+						},
+						"description": "Generate new Flex offer notifications based on AI analysis"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints for managing notifications"
+		},
+		{
+			"name": "Analytics",
+			"item": [
+				{
+					"name": "Get Financial Stress Prediction",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/analytics/financial-stress",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"analytics",
+								"financial-stress"
+							]
+						},
+						"description": "Get a prediction of financial stress for the next few months"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Spending Patterns",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/analytics/spending-patterns",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"analytics",
+								"spending-patterns"
+							]
+						},
+						"description": "Get analysis of spending patterns"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Test Transaction Data",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "{{token}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": \"{{userId}}\",\n    \"amount\": 2500,\n    \"type\": \"expense\",\n    \"category\": \"Housing\",\n    \"description\": \"Rent payment\",\n    \"date\": \"2023-03-15T00:00:00.000Z\",\n    \"source\": \"Bank Transfer\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/transactions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"transactions"
+							]
+						},
+						"description": "Create test transaction data (you'll need to add this endpoint to your backend for testing)"
+					},
+					"response": []
+				}
+			],
+			"description": "Endpoints for analytics and financial insights"
+		},
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health"
+					]
+				},
+				"description": "Simple health check endpoint to verify the API is running"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
