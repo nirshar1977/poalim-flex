@@ -7,7 +7,7 @@ class CustomerClassificationService {
     this.mortgage = mortgage;
     this.classifiers = [
       require('./classifiers/HighExpensesClassifier'),
-      require('./classifiers/LowLiquidityClassifier'),
+      require('./classifiers/FinancialStabilityClassifier'),
       // Add other classifiers here
     ];
   }
