@@ -21,25 +21,24 @@ const UserSchema = new mongoose.Schema({
   },
   address: {
     street: { 
-      type: String, 
-      required: true 
+      type: String 
     },
     city: { 
-      type: String, 
-      required: true 
+      type: String 
     },
     zipCode: { 
-      type: String, 
-      required: true 
+      type: String 
     },
     country: { 
-      type: String, 
-      required: true 
+      type: String 
     }
+  },
+  customerId: {
+    type: String,
+    unique: true
   },
   financialStatus: { 
     type: String, 
-    required: true,
     enum: ['A', 'B', 'C', 'D']
   },
   password: { 
@@ -77,7 +76,12 @@ UserSchema.pre('save', async function(next) {
 
 // Method to compare passwords
 UserSchema.methods.comparePassword = async function(candidatePassword) {
-  return await bcrypt.compare(candidatePassword, this.password);
+  try {
+    return await bcrypt.compare(candidatePassword, this.password);
+  } catch (error) {
+    console.error('Password comparison error:', error);
+    return false;
+  }
 };
 
 module.exports = mongoose.model('User', UserSchema);

@@ -3,11 +3,12 @@ const router = express.Router();
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const { authenticate } = require('../middleware/auth');
+const bcrypt = require('bcrypt');
 
 // Register new user
 router.post('/register', async (req, res) => {
     try {
-        const { customerId, email, password, name, phone } = req.body;
+        const { customerId, email, password, firstName, lastName, phone } = req.body;
         
         // Check if user exists
         const existingUser = await User.findOne({ 
@@ -25,7 +26,8 @@ router.post('/register', async (req, res) => {
             customerId,
             email,
             password,
-            name,
+            firstName,
+            lastName,
             phone
         });
         
@@ -43,13 +45,17 @@ router.post('/register', async (req, res) => {
             user: {
                 id: user._id,
                 customerId: user.customerId,
-                name: user.name,
+                firstName: user.firstName,
+                lastName: user.lastName,
                 email: user.email
             }
         });
     } catch (error) {
         console.error('Registration error:', error);
-        res.status(500).json({ message: 'Server error during registration' });
+        res.status(500).json({ 
+            message: 'Server error during registration',
+            error: error.message 
+        });
     }
 });
 
@@ -82,26 +88,40 @@ router.post('/login', async (req, res) => {
             user: {
                 id: user._id,
                 customerId: user.customerId,
-                name: user.name,
+                firstName: user.firstName,
+                lastName: user.lastName,
                 email: user.email
             }
         });
     } catch (error) {
         console.error('Login error:', error);
-        res.status(500).json({ message: 'Server error during login' });
+        res.status(500).json({ 
+            message: 'Server error during login',
+            error: error.message 
+        });
     }
 });
 
 // Get user profile
 router.get('/profile', authenticate, async (req, res) => {
     try {
+        console.log('User ID from token:', req.user.id);
+        
         const user = await User.findById(req.user.id).select('-password');
+        
         if (!user) {
+            console.error('User not found for ID:', req.user.id);
             return res.status(404).json({ message: 'User not found' });
         }
+        
         res.json(user);
     } catch (error) {
         console.error('Profile fetch error:', error);
+        console.error('Error details:', {
+            name: error.name,
+            message: error.message,
+            stack: error.stack
+        });
         res.status(500).json({ message: 'Server error fetching profile' });
     }
 });
@@ -124,7 +144,10 @@ router.put('/notifications', authenticate, async (req, res) => {
         res.json(user);
     } catch (error) {
         console.error('Notification preferences update error:', error);
-        res.status(500).json({ message: 'Server error updating notification preferences' });
+        res.status(500).json({ 
+            message: 'Server error updating notification preferences',
+            error: error.message 
+        });
     }
 });
 
